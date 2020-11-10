@@ -5,3 +5,8 @@ Dockerfile used for building PointCloudLibrary(PCL) developing environment.
 
 build command: `docker build --build-arg USE_CUDA=true .`
 
+## Or you can pull it from DockerHub
+
+`docker pull erwinqi/pcl:v1.11.1`
+
+## Notice: Some tweaks in APT source were made to fit poor network in China. You may need to reset it.
